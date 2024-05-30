@@ -18,11 +18,12 @@ class ArticleScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         elevation: 0,
-        titleSpacing: -5,
+        backgroundColor: AppColors.blackColor,
         title: const Text(
-          'Back',
+          'News',
           style: SettingsTextStyle.back,
         ),
+        centerTitle: true,
         leading: IconButton(
           onPressed: () {
             Navigator.of(context).pop();
@@ -36,7 +37,7 @@ class ArticleScreen extends StatelessWidget {
         ),
       ),
       body: Container(
-        //   color: AppColors.blackColor,
+        color: AppColors.blackColor,
         child: Column(
           children: [
             SizedBox(
@@ -52,27 +53,6 @@ class ArticleScreen extends StatelessWidget {
             ),
             SizedBox(
               height: screenSize.height * 0.01,
-            ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.start,
-                children: [
-                  Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(12.0),
-                      color: AppColors.blueColor,
-                    ),
-                    child: Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Text(
-                        'Business news',
-                        style: NewsTextStyle.business,
-                      ),
-                    ),
-                  ),
-                ],
-              ),
             ),
             SizedBox(
               height: screenSize.height * 0.01,

@@ -18,17 +18,12 @@ class SettingsTile extends StatelessWidget {
   });
   @override
   Widget build(BuildContext context) {
-    Size size = MediaQuery.of(context).size;
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: GestureDetector(
         onTap: onTap,
         child: Container(
-          // padding: EdgeInsets.all(16.0),
-          // decoration: BoxDecoration(
-          //   color: Colors.grey.withOpacity(0.1),
-          //   borderRadius: BorderRadius.circular(10.0),
-          // ),
+          padding: EdgeInsets.symmetric(vertical: 8.0),
           child: Row(
             children: [
               SvgPicture.asset(

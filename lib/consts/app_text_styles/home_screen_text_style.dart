@@ -8,17 +8,23 @@ class HomeScreenTextStyle {
     fontWeight: FontWeight.w400,
     color: AppColors.blackColor,
   );
-  static TextStyle bannerSpendings = TextStyle(
+  static const TextStyle bannerSpendings = TextStyle(
     fontFamily: 'Roboto',
     fontSize: 20.0,
     fontWeight: FontWeight.w400,
     color: AppColors.blackColor,
   );
-  static TextStyle bannerTitle = TextStyle(
+  static const TextStyle bannerTitle = TextStyle(
     fontFamily: 'Roboto',
     fontSize: 16.0,
-    fontWeight: FontWeight.w200,
-    color: AppColors.blackColor.withOpacity(0.4),
+    fontWeight: FontWeight.w500,
+    color: AppColors.whiteColor,
+  );
+  static TextStyle bannerText = TextStyle(
+    fontFamily: 'Inter',
+    fontSize: 14.0,
+    fontWeight: FontWeight.w500,
+    color: AppColors.whiteColor.withOpacity(0.4),
   );
   static const TextStyle name = TextStyle(
       fontFamily: 'Roboto',

@@ -45,14 +45,15 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             children: [
               Expanded(
                 child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     SizedBox(
-                      height: size.height * 0.45,
+                      height: size.height * 0.1,
                     ),
                     const Text(
                       'Immerse yourself in the world of football with our app!',
                       style: OnboardingTextStyle.introduction,
-                      textAlign: TextAlign.start,
+                      textAlign: TextAlign.center,
                       softWrap: true,
                       overflow: TextOverflow.visible,
                     ),
@@ -60,9 +61,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                       height: size.height * 0.02,
                     ),
                     Text(
-                      'Track matches, read football news in one app!',
+                      'Track matches, read football \nnews in one app!',
                       style: OnboardingTextStyle.description,
-                      textAlign: TextAlign.start,
+                      textAlign: TextAlign.center,
                       softWrap: true,
                       overflow: TextOverflow.visible,
                     ),

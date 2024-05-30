@@ -1,17 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:goal/consts/app_colors.dart';
 
 class OnboardingTextStyle {
   static const TextStyle introduction = TextStyle(
     fontFamily: 'Roboto',
     fontSize: 30.0,
-    color: Colors.black,
+    color: AppColors.whiteColor,
     fontWeight: FontWeight.w600,
   );
   static TextStyle description = TextStyle(
-      fontFamily: 'Roboto',
-      fontSize: 16.0,
-      fontWeight: FontWeight.w400,
-      color: Colors.black);
+    fontFamily: 'Roboto',
+    fontSize: 16.0,
+    fontWeight: FontWeight.w400,
+    color: AppColors.whiteColor,
+  );
   static const TextStyle title = TextStyle(
     fontFamily: 'Roboto',
     fontSize: 18.0,

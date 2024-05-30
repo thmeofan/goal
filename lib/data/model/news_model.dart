@@ -40,7 +40,7 @@ final news = [
       title: 'Christian Eriksen makes football return after cardiac arrest',
       text:
           'Copenhagen, Denmark - Denmark midfielder Christian Eriksen made his football return after suffering a cardiac arrest at Euro 2020, coming on as a substitute in a friendly for his new club Brentford against Southampton on Saturday.Eriksen entered the pitch in the 52nd minute to a standing ovation from the fans of both teams. He played 36 minutes and helped Brentford to a 3-2 victory. Eriksen\'s return was an emotional moment for everyone involved in the match. He received a standing ovation from the entire stadium as he prepared to enter the pitch. Eriksen suffered a cardiac arrest during Denmark\'s Euro 2020 group stage match against Finland in June 2021. He was saved thanks to the quick actions of the medical staff and his teammates. Following the cardiac arrest, Eriksen was fitted with an implantable cardioverter-defibrillator (ICD), which is a device that sends electrical pulses to the heart to restore a normal rhythm. Eriksen\'s return to football is a testament to his strength and determination. It is also a testament to the improving medical care and rehabilitation available to athletes who suffer cardiac arrests.Eriksen\'s return gives hope to other athletes and to everyone who has suffered a cardiac arrest. It is a reminder that even after a major medical event, it is possible to return to an active and fulfilling life.',
-      date: '29may'),
+      date: '29 may'),
   NewsModel(
       date: '1 june',
       imageUrl:

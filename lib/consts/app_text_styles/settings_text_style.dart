@@ -12,13 +12,19 @@ class SettingsTextStyle {
     fontFamily: 'Inter',
     fontSize: 26.0,
     fontWeight: FontWeight.w400,
-    color: Colors.black,
+    color: AppColors.whiteColor,
   );
-  static const TextStyle bannerTitle = TextStyle(
+  static TextStyle bannerNotChosen = TextStyle(
     fontFamily: 'Inter',
-    fontSize: 20.0,
-    fontWeight: FontWeight.w500,
-    color: Colors.white,
+    fontSize: 16.0,
+    fontWeight: FontWeight.w400,
+    color: AppColors.whiteColor.withOpacity(0.4),
+  );
+  static const TextStyle bannerChosen = TextStyle(
+    fontFamily: 'Inter',
+    fontSize: 16.0,
+    fontWeight: FontWeight.w400,
+    color: AppColors.whiteColor,
   );
   static const TextStyle bannerSubTitle = TextStyle(
     fontFamily: 'Inter',
@@ -29,7 +35,7 @@ class SettingsTextStyle {
   static const TextStyle back = TextStyle(
     fontFamily: 'Roboto',
     fontSize: 16.0,
-    fontWeight: FontWeight.w300,
-    color: AppColors.purpleColor,
+    fontWeight: FontWeight.w500,
+    color: AppColors.whiteColor,
   );
 }
