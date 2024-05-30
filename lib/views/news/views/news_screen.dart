@@ -45,12 +45,12 @@ class NewsScreen extends StatelessWidget {
                 style: SettingsTextStyle.title,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
             Row(
               children: [
-                SizedBox(
+                const SizedBox(
                   width: 16,
                 ),
                 GestureDetector(
@@ -75,7 +75,7 @@ class NewsScreen extends StatelessWidget {
                             'assets/icons/matches.svg',
                             color: AppColors.whiteColor.withOpacity(0.4),
                           ),
-                          SizedBox(
+                          const SizedBox(
                             width: 8,
                           ),
                           Text(
@@ -87,7 +87,7 @@ class NewsScreen extends StatelessWidget {
                     ),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   width: 15,
                 ),
                 Container(
@@ -100,10 +100,10 @@ class NewsScreen extends StatelessWidget {
                     child: Row(
                       children: [
                         SvgPicture.asset('assets/icons/news.svg'),
-                        SizedBox(
+                        const SizedBox(
                           width: 10,
                         ),
-                        Text(
+                        const Text(
                           'News',
                           style: SettingsTextStyle.bannerChosen,
                         )

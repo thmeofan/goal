@@ -30,7 +30,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/images/background.png'),
+            image: const AssetImage('assets/images/background.png'),
             fit: BoxFit.cover,
             colorFilter: ColorFilter.mode(
               Colors.transparent.withOpacity(1),
@@ -67,7 +67,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                       softWrap: true,
                       overflow: TextOverflow.visible,
                     ),
-                    Spacer(),
+                    const Spacer(),
                     ChosenActionButton(
                       onTap: () {
                         context.read<OnboardingCubit>().setFirstTime();

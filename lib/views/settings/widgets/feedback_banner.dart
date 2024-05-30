@@ -7,7 +7,7 @@ class FeedbackBanner extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.all(16.0),
+      padding: const EdgeInsets.all(16.0),
       decoration: BoxDecoration(
         color: AppColors.whiteColor.withOpacity(0.08),
         borderRadius: BorderRadius.circular(12.0),
@@ -15,7 +15,7 @@ class FeedbackBanner extends StatelessWidget {
           BoxShadow(
             color: Colors.black.withOpacity(0.1),
             blurRadius: 8.0,
-            offset: Offset(0, 4),
+            offset: const Offset(0, 4),
           ),
         ],
       ),
@@ -29,17 +29,17 @@ class FeedbackBanner extends StatelessWidget {
                 width: 130,
                 // height: 100,
               ),
-              Spacer(),
+              const Spacer(),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   const Text(
-                    'Give us 5 star',
+                    'Give us 5 stars',
                     style: HomeScreenTextStyle.bannerTitle,
                   ),
                   const SizedBox(height: 4.0),
                   Text(
-                    'Your feedback helps \nus to improve',
+                    'Your feedback helps \nus improve',
                     style: HomeScreenTextStyle.bannerText,
                     maxLines: 4,
                   ),

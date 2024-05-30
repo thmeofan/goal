@@ -14,7 +14,7 @@ class NewsModel {
 
 final news = [
   NewsModel(
-      date: 'today',
+      date: 'Today',
       imageUrl: 'https://storage.googleapis.com/pod_public/1300/169545.jpg',
       title: 'Real Madrid win El Clásico against Barcelona',
       text:

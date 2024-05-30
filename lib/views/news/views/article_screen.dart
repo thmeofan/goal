@@ -32,7 +32,7 @@ class ArticleScreen extends StatelessWidget {
             'assets/icons/leading.svg',
             width: screenSize.width * 0.04,
             height: screenSize.width * 0.04,
-            // color: Colors.white,
+
           ),
         ),
       ),
@@ -72,7 +72,7 @@ class ArticleScreen extends StatelessWidget {
                 child: Container(
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(16.0),
-                    //  color: AppColors.darkGreyColor,
+
                   ),
                   child: Padding(
                     padding: EdgeInsets.all(screenSize.width * 0.025),

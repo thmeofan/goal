@@ -131,10 +131,17 @@ class MatchScreen extends StatelessWidget {
                 } else if (snapshot.hasError) {
                   return const Center(child: Text('Failed to load matches'));
                 }
-                return const Center(
-                    child: CircularProgressIndicator(
-                  color: AppColors.greenColor,
-                ));
+                return const Column(
+                  children: [
+                    SizedBox(
+                      height: 120,
+                    ),
+                    Center(
+                        child: CircularProgressIndicator(
+                      color: AppColors.greenColor,
+                    )),
+                  ],
+                );
               },
             ),
           ],

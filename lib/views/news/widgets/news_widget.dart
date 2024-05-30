@@ -25,7 +25,7 @@ class NewsWidget extends StatelessWidget {
           width: double.maxFinite,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(15.0),
-            //  color: Colors.white,
+
           ),
           child: Column(
             children: [

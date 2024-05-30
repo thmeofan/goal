@@ -45,7 +45,7 @@ class MatchWidget extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             _buildTeamLogo(match['homeTeam']),
-                            SizedBox(
+                            const SizedBox(
                               height: 10,
                             ),
                             Text(
@@ -58,14 +58,14 @@ class MatchWidget extends StatelessWidget {
                           ],
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 10,
                       ),
                       Text(
                         '${match['score']?['fullTime']?['home'] ?? ''} - ${match['score']?['fullTime']?['away'] ?? ''}', // Add null checks
                         style: MatchTextStyle.score,
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 10,
                       ),
                       Expanded(
@@ -73,7 +73,7 @@ class MatchWidget extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             _buildTeamLogo(match['awayTeam']),
-                            SizedBox(
+                            const SizedBox(
                               height: 10,
                             ),
                             Text(
@@ -91,7 +91,7 @@ class MatchWidget extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 8,
             ),
             Container(

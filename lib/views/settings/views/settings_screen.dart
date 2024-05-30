@@ -45,7 +45,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
             'assets/icons/leading.svg',
             width: size.width * 0.08,
             height: size.width * 0.08,
-            // color: Colors.white,
+
           ),
         ),
       ),
@@ -70,7 +70,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                     child: FeedbackBanner(),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 15,
                 ),
                 Padding(

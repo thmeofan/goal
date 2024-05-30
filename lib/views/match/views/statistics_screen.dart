@@ -32,7 +32,6 @@ class StatisticsScreen extends StatelessWidget {
             'assets/icons/leading.svg',
             width: size.width * 0.08,
             height: size.width * 0.08,
-            // color: Colors.white,
           ),
         ),
       ),
@@ -52,7 +51,7 @@ class StatisticsScreen extends StatelessWidget {
                     fit: BoxFit.cover,
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 Row(
@@ -61,7 +60,7 @@ class StatisticsScreen extends StatelessWidget {
                       child: Column(
                         children: [
                           _buildTeamLogo(match['homeTeam']),
-                          SizedBox(
+                          const SizedBox(
                             height: 5,
                           ),
                           Text(
@@ -81,7 +80,7 @@ class StatisticsScreen extends StatelessWidget {
                       child: Column(
                         children: [
                           _buildTeamLogo(match['awayTeam']),
-                          SizedBox(
+                          const SizedBox(
                             height: 5,
                           ),
                           Text(
@@ -95,7 +94,7 @@ class StatisticsScreen extends StatelessWidget {
                     )
                   ],
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 Row(
@@ -107,7 +106,7 @@ class StatisticsScreen extends StatelessWidget {
                     ),
                   ],
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 8,
                 ),
                 Padding(
@@ -148,7 +147,7 @@ class StatisticsScreen extends StatelessWidget {
                         generateRandomShootings().toString(),
                         style: MatchTextStyle.statistics,
                       ),
-                      Spacer(),
+                      const Spacer(),
                       Text(
                         'Shootings, %',
                         style: MatchTextStyle.subtitle,
@@ -177,12 +176,12 @@ class StatisticsScreen extends StatelessWidget {
                         generateRandomStatistics().toString(),
                         style: MatchTextStyle.statistics,
                       ),
-                      Spacer(),
+                      const Spacer(),
                       Text(
                         'Statistics, %',
                         style: MatchTextStyle.subtitle,
                       ),
-                      Spacer(),
+                      const Spacer(),
                       Text(
                         generateRandomStatistics().toString(),
                         style: MatchTextStyle.statistics,
@@ -206,12 +205,12 @@ class StatisticsScreen extends StatelessWidget {
                         generateRandomYellowCards().toString(),
                         style: MatchTextStyle.statistics,
                       ),
-                      Spacer(),
+                      const Spacer(),
                       Text(
                         'Yellow cards',
                         style: MatchTextStyle.subtitle,
                       ),
-                      Spacer(),
+                      const Spacer(),
                       Text(
                         generateRandomYellowCards().toString(),
                         style: MatchTextStyle.statistics,
@@ -219,7 +218,7 @@ class StatisticsScreen extends StatelessWidget {
                     ],
                   ),
                 ),
-                SizedBox(height: 8),
+                const SizedBox(height: 8),
               ],
             ),
           ),

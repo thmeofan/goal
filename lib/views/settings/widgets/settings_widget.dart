@@ -23,7 +23,7 @@ class SettingsTile extends StatelessWidget {
       child: GestureDetector(
         onTap: onTap,
         child: Container(
-          padding: EdgeInsets.symmetric(vertical: 8.0),
+          padding: const EdgeInsets.symmetric(vertical: 8.0),
           child: Row(
             children: [
               SvgPicture.asset(
@@ -31,13 +31,13 @@ class SettingsTile extends StatelessWidget {
                 width: 24.0,
                 height: 24.0,
               ),
-              SizedBox(width: 8.0),
+              const SizedBox(width: 8.0),
               Text(
                 text,
                 style: SettingsTextStyle.tile,
               ),
               if (action != null) ...[
-                Spacer(),
+                const Spacer(),
                 action!,
               ],
             ],
